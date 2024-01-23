@@ -8,9 +8,9 @@ const a = 1;
 function showLogo() {
   const a = document.getElementById("skills");
 
-  if (a.style.display === "none") {
-    a.style.display = "inline";
-  } else {
+  if (a.style.display === "inline") {
     a.style.display = "none";
+  } else {
+    a.style.display = "inline";
   }
 }
