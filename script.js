@@ -1,16 +1,16 @@
-const skills = document.getElementById("skills");
+// const skills = document.getElementById("skills");
 const a = 1;
 
-skills.addEventListener("click", (e) => {
-  showlogo();
-});
+// skills.addEventListener("click", (e) => {
+//   showlogo();
+// });
 
-function showlogo() {
-  if (a == 1) {
-    document.getElementById("skills").style.display = "inline";
-    return (a = 0);
+function showLogo() {
+  const a = document.getElementById("skills");
+
+  if (a.style.display === "none") {
+    a.style.display = "inline";
   } else {
-    document.getElementById("skills").style.display = "none";
-    return (a = 1);
+    a.style.display = "none";
   }
 }
