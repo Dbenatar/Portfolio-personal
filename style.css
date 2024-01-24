@@ -5,13 +5,14 @@
 
 body {
   min-height: 100vh;
-  background-color: #0048526f;
+  background-color: #c3ceda;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
+  color: #0c4160;
 }
 
 nav {
-  background-color: #02228af1;
+  background-color: #071330;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,21 +32,21 @@ nav a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #65941adf;
+  color: #115a84;
 }
 nav a:hover {
-  background-color: #676565b4;
+  background-color: #738fa7;
 }
 nav li:first-child {
   margin-right: auto;
 }
 
-p {
+/* p {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 750px;
-}
+} */
 
 img {
   max-width: 50px;
@@ -60,6 +61,15 @@ button {
   padding: 5px 20px;
 }
 
+button:hover {
+  margin-left: 80px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: #0049523c;
+  /* box-shadow:  */
+}
+
 #skills {
   display: none;
 }
@@ -72,7 +82,7 @@ footer {
   bottom: 0;
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #02228af1;
+  background-color: #071330;
   box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
-  color: #65941adf;
+  color: #115a84;
 }
