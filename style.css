@@ -12,7 +12,7 @@ body {
 }
 
 nav {
-  background-color: #071330;
+  background-color: #0c4160;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -22,7 +22,7 @@ nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #115a84;
+  color: #071330;
 }
 nav li {
   height: 50px;
@@ -33,10 +33,11 @@ nav a {
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: #115a84;
+  color: #071330;
 }
 nav a:hover {
   background-color: #738fa7;
+  text-decoration: underline;
 }
 nav li:first-child {
   margin-right: auto;
@@ -49,8 +50,7 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: #071330;
-  backdrop-filter: blur(10px);
+  background-color: #0c4160;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
@@ -70,9 +70,6 @@ nav li:first-child {
   .hideOnMobile {
     display: none;
   }
-  .menu-button {
-    display: block;
-  }
 }
 
 @media (max-width: 400px) {
@@ -81,10 +78,9 @@ nav li:first-child {
   }
 }
 
-.menu-button {
-  display: none;
+main {
+  margin: 100px;
 }
-
 p {
   display: flex;
   justify-content: center;
@@ -111,7 +107,6 @@ button:hover {
   border-radius: 10px;
   padding: 5px 20px;
   background-color: #0049523c;
-  /* box-shadow:  */
 }
 
 #skills {
@@ -126,7 +121,7 @@ footer {
   bottom: 0;
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #071330;
+  background-color: #0c4160;
   box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.1);
-  color: #115a84;
+  color: #071330;
 }
